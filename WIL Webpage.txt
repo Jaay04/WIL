@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay's Photography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            color: #007bff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e9ecef;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .about, .services, .contact {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .portfolio img {
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #e9ecef;
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jay's Photography</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Jay, a passionate photographer specializing in capturing life's beautiful moments. With a keen eye for detail and a love for creative expression, I strive to provide my clients with stunning photographs that tell a story. Whether it's a wedding, portrait session, or any special event, I'm dedicated to delivering high-quality images that you'll cherish forever.</p>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <img src="photo1.jpg" alt="Sample Photo 1">
+    <img src="photo2.jpg" alt="Sample Photo 2">
+    <img src="photo3.jpg" alt="Sample Photo 3">
+    <img src="photo4.jpg" alt="Sample Photo 4">
+</section>
+
+<section id="services" class="services">
+    <h2>Services</h2>
+    <ul>
+        <li>Wedding Photography</li>
+        <li>Portrait Sessions</li>
+        <li>Event Photography</li>
+        <li>Commercial Photography</li>
+        <li>Photo Editing</li>
+    </ul>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Interested in working together? I'd love to hear from you! Reach out to me via email or phone, and let's discuss how I can help capture your special moments.</p>
+    <p>Email: jayphotography@example.com</p>
+    <p>Phone: (123) 456-7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Jay's Photography. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
